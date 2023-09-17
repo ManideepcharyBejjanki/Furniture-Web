@@ -1,0 +1,62 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.navSearch {
+    flex: 1;
+    margin-right: 5px;
+}
+
+.redirectLinks {
+    flex: 2;
+    text-align: center;
+}
+
+.navImages {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navIcons{
+    height: 30px;
+    width: 30px;
+    padding-right: 30px;
+}
+
+.navElements {
+    text-decoration: none;
+    color: inherit;
+    margin: 0 10px;
+    padding: 5px;
+}
+
+.titleSize {
+    font-size: 24px;
+    font-weight: bold;
+}
+.mainInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: lightgrey;
+}
+.mainTextInfo{
+    flex: 1;
+    margin-left: 200px;
+}
+.mainImage{
+    flex: 2;
+}
+.itemPrice{
+    text-decoration: line-through;
+}
+.itemTitle{
+    font-size: 20px;
+}
